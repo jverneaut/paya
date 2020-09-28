@@ -1,9 +1,13 @@
-$elements: (p, h1, h2, h3, h4, h5, h6, ul);
-@each $top_element in $elements {
-  @each $bottom_element in $elements {
-    #{$top_element} + #{$bottom_element},
-    #{$top_element} + a {
-      margin-top: 20px;
-    }
-  }
+// $elements: (p, h1, h2, h3, h4, h5, h6, ul);
+// @each $top_element in $elements {
+//   @each $bottom_element in $elements {
+//     #{$top_element} + #{$bottom_element},
+//     #{$top_element} + a {
+//       margin-top: 20px;
+//     }
+//   }
+// }
+
+body {
+  font-family: sans-serif;
 }
