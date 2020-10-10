@@ -72,7 +72,7 @@ function register_blocks()
       'title' => 'Hero',
       'slug' => 'hero',
       'example' => [
-        'text_content' => lorem(14),
+        'content' => lorem(14),
         'image' => placeholder(600, 200),
       ],
     ],
@@ -80,7 +80,7 @@ function register_blocks()
       'title' => 'Hero page d\'accueil',
       'slug' => 'homepage-hero',
       'example' => [
-        'text_content' => lorem(14),
+        'content' => lorem(14),
         'image' => placeholder(600, 200),
       ],
     ],
@@ -88,14 +88,26 @@ function register_blocks()
       'title' => 'Contrats',
       'slug' => 'contracts',
       'example' => [
-        'text_content' => lorem(14),
+        'content' => lorem(14),
       ],
     ],
     [
       'title' => 'Bandeau contact',
       'slug' => 'contact-banner',
       'example' => [
-        'text_content' => lorem(14),
+        'content' => lorem(14),
+      ],
+    ],
+    [
+      'title' => 'Services',
+      'slug' => 'services',
+      'example' => [
+        'content' => lorem(14),
+        'services' => [
+          ['image' => placeholder(), 'content' => lorem(20)],
+          ['image' => placeholder(), 'content' => lorem(20)],
+          ['image' => placeholder(), 'content' => lorem(20)],
+        ],
       ],
     ],
   ];

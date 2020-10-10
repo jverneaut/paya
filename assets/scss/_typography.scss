@@ -62,3 +62,8 @@ h3 {
     background: $dark;
   }
 }
+
+.text-center .section-title::after {
+  left: 50%;
+  transform: translateX(-50%);
+}
