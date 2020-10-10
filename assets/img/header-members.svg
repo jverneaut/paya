@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HEADER" transform="translate(-1307.000000, -6.000000)">
+            <g id="BANDEAU-HAUT">
+                <g>
+                    <g id="espace-abonnés" transform="translate(1307.000000, 6.000000)">
+                        <g id="Group-2">
+                            <circle id="Oval" fill="#FFFFFF" cx="14" cy="14" r="14"></circle>
+                            <path d="M9.2,17.8 C9.2,16.1458 10.5458,14.8 12.2,14.8 L15.8,14.8 C17.4542,14.8 18.8,16.1458 18.8,17.8 L9.2,17.8 Z M20,17.8 C20,15.484 18.1154,13.6 15.8,13.6 L12.2,13.6 C9.8846,13.6 8,15.484 8,17.8 L8,19 L20,19 L20,17.8 Z" id="Fill-1" fill="#1D1B1B"></path>
+                            <path d="M12.2,10 C12.2,9.0076 13.0076,8.2 14,8.2 C14.9924,8.2 15.8,9.0076 15.8,10 C15.8,10.9924 14.9924,11.8 14,11.8 C13.0076,11.8 12.2,10.9924 12.2,10 M17,10 C17,8.3458 15.6542,7 14,7 C12.3458,7 11,8.3458 11,10 C11,11.6542 12.3458,13 14,13 C15.6542,13 17,11.6542 17,10" id="Fill-3" fill="#1D1B1B"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

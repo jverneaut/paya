@@ -3,6 +3,7 @@
 use Timber\Site;
 use Timber\Timber;
 use Timber\Menu;
+use OzdemirBurak\Iris\Color\Hex;
 
 $timber = new Timber;
 
@@ -13,13 +14,17 @@ class Theme extends Site
     add_action('init', array($this, 'add_menus'));
     add_action('after_setup_theme', array($this, 'theme_supports'));
     add_filter('timber/context', array($this, 'add_to_context'));
+    add_filter('timber/twig', array($this, 'add_to_twig'));
 
     parent::__construct();
   }
 
   public function add_menus()
   {
-    register_nav_menu('main-menu', __('Menu principal'));
+    register_nav_menu('top_menu', __('Menu du haut'));
+    register_nav_menu('main_menu', __('Menu principal'));
+    register_nav_menu('footer_menu', __('Menu footer'));
+    register_nav_menu('bottom_menu', __('Menu du bas'));
   }
 
   public function theme_supports()
@@ -31,14 +36,28 @@ class Theme extends Site
 
   public function add_to_context($context)
   {
-    $main_menu = new Menu('main-menu');
-    $context['main_menu'] = $main_menu;
+    $menu_slugs = ['top_menu', 'main_menu', 'footer_menu', 'bottom_menu'];
+
+    foreach ($menu_slugs as $menu_slug) {
+      $context[$menu_slug] = new Menu($menu_slug);
+    }
 
     if (function_exists('get_fields')) {
       $context['options'] = get_fields('option');
     }
 
     return $context;
+  }
+
+  public function add_to_twig($twig)
+  {
+    $twig->addExtension(new Twig\Extension\StringLoaderExtension());
+    $twig->addFilter(new Twig\TwigFilter('darken', function ($color) {
+      $hex = new Hex($color);
+      return $hex->darken(3);
+    }));
+
+    return $twig;
   }
 }
 

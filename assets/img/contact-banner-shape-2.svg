@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="145px" viewBox="0 0 93 145" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Fill 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1681.8035,168.195369 C1663.93067,128.529993 1625.31237,117.202584 1611.61793,94.1924585 C1599.32451,73.5351394 1592.27172,44.7216616 1600.6479,21.5931007 C1620.45465,-33.094173 1675.01362,6.15049077 1708.05956,-26.7286925 C1737.53765,-56.0548026 1755.26931,-115.145412 1809.87417,-104.799076 C1829.48858,-101.079839 1847.55903,-83.2278567 1867.60046,-77.6861234 C1891.62088,-71.0413465 1917.87518,-76.5194427 1937.7578,-58.9237765 C1981.45968,-20.2483115 1939.08825,16.9157717 1924.44449,54.5748104 C1910.14305,91.3500001 1955.22126,140.847312 1925.76259,168.287289 C1912.54456,180.599306 1874.51385,179.899297 1856.93746,186.112756 C1819.46434,199.358117 1805.3817,219.762655 1776.99938,226.870569 C1737.02064,236.882811 1707.08202,224.303871 1681.8035,168.195369" id="path-1"></path>
+        <filter x="-3.1%" y="-3.3%" width="106.1%" height="106.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.234402316 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DEVIS-EN-LIGNE---SANS-FAQ" transform="translate(-1607.000000, 0.000000)">
+            <g id="DEVIS-EN-LIGNE">
+                <g id="Group-7">
+                    <g>
+                        <g id="Fill-1-Copy" transform="translate(1777.000000, 62.000000) rotate(-100.000000) translate(-1777.000000, -62.000000) ">
+                            <use fill="#FABE0C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

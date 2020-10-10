@@ -1,1 +1,31 @@
-<div class="header">Header</div>
+<div class="header">
+  <div class="container position-relative">
+    <a href="{{ site.url }}" class="header__logo"><img src="{{ theme.link }}/assets/img/logo.svg"></a>
+    <div class="header__top">
+      <ul>
+        {% for item in top_menu.items %}
+          <li>
+            <a href="{{ item.link }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+      <div class="header__contact">
+        <a href="#" class="header__mail"><img src="{{ theme.link }}/assets/img/header-mail.svg" alt="Mail"></a>
+        <a href="#" class="header__phone">+33 (0)4 93 16 7474</a>
+      </div>
+      <a href="#" class="header__members">
+        <img src="{{ theme.link }}/assets/img/header-members.svg" alt="Espace abonnés">
+        <span>Espace abonnés</span>
+      </a>
+    </div>
+    <div class="header__bottom">
+      <ul>
+        {% for item in main_menu.items %}
+          <li>
+            <a href="{{ item.link }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

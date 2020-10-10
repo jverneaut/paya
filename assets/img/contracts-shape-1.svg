@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="807px" height="291px" viewBox="0 0 807 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1589,748.592681 C1589,926.103622 1541.06277,1126.75277 1390.01678,1237.85518 C1211.71746,1368.99577 1015.90692,1282.49848 815.955267,1304.6756 C635.639593,1324.67765 474.042059,1425.90911 367.977417,1307.39987 C300.021173,1231.45279 333.619873,1125.27863 301.784581,1060.64774 C245.586798,946.553692 135.47499,884.206271 120.825697,747.23416 C95.6899084,512.159525 241.763672,497.772214 419.116243,423.747297 C567.358131,361.855125 706.537259,194.070613 859.512885,163.453317 C1309.1891,73.4730104 1589,453.490226 1589,748.592681" id="path-1"></path>
+        <filter x="-0.5%" y="-0.6%" width="101.0%" height="101.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="7" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-ACCUEIL" transform="translate(0.000000, -1138.000000)">
+            <g id="ALLIANCE" transform="translate(0.000000, 808.000000)">
+                <g id="Group-8" transform="translate(0.000000, 330.000000)">
+                    <g id="Group-3" transform="translate(-729.000000, -1043.000000)">
+                        <g id="Fill-1" transform="translate(853.500000, 757.000000) rotate(-167.000000) translate(-853.500000, -757.000000) ">
+                            <use fill="#003697" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

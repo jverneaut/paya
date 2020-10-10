@@ -18,6 +18,11 @@ function add_mce_styles($init_array)
       'title' => 'Titres',
       'items' => [
         [
+          'title' => 'Titre de section',
+          'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
+          'classes' => 'section-title',
+        ],
+        [
           'title' => 'Titre 1',
           'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
           'classes' => 'title-1',

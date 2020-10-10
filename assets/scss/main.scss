@@ -7,5 +7,15 @@
 // Components
 @import 'components/btn';
 
-// WordPress admin
-@import 'editor-styles';
+// Partials
+@import 'partials/header';
+@import 'partials/footer';
+
+// Blocks
+@import 'blocks/hero';
+@import 'blocks/homepage-hero';
+@import 'blocks/contracts';
+@import 'blocks/contact-banner';
+
+// // WordPress admin
+// @import 'editor-styles';

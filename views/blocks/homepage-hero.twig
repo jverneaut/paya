@@ -1,0 +1,15 @@
+<section class="homepage-hero">
+  <div class="homepage-hero__background">
+    <img src="{{ Image(fields.image).src }}" alt="{{ Image(fields.image).alt }}" class="homepage-hero__background-image">
+    <img src="{{ theme.link }}/assets/img/homepage-hero-shape.svg" class="homepage-hero__background-shape" alt="">
+  </div>
+  <div class="homepage-hero__content">
+    <div class="container">
+      <div class="row">
+        <div class="col-5">
+          {{ fields.content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

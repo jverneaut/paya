@@ -1,1 +1,39 @@
-<div class="footer">Footer</div>
+<div class="footer">
+  <div class="container">
+    <div class="row footer__main">
+      <div class="col-4">
+        <div class="footer__logos">
+          <img src="{{ theme.link }}/assets/img/logo.svg" alt="">
+          <img src="{{ theme.link }}/assets/img/30-ans.svg" alt="">
+        </div>
+      </div>
+      <div class="col-8">
+        <a href="#" class="footer__phone">+33(0)4 93 16 74 74</a>
+        <div class="d-flex mt-2">
+          <a href="#" class="footer__address">
+            <img src="{{ theme.link }}/assets/img/footer-map.svg" alt="">
+            <span>18 Rue Alphonse Karr, 06000 Nice</span>
+          </a>
+          <a href="/contact" class="btn btn-primary mt-0 ml-8">Contactez-nous</a>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-8 footer__menu">
+      <div class="col-12">
+        {{ function('wp_nav_menu', footer_menu) }}
+      </div>
+    </div>
+    <hr>
+    <div class="row footer__bottom">
+      <div class="col-4">
+        <span class="footer__credits">©2020 Paya Assurances - Tous droits réservés</span>
+      </div>
+      <div class="col-4 text-center">
+        {{ function('wp_nav_menu', bottom_menu) }}
+      </div>
+      <div class="col-4 text-right">
+        <a href="https://www.aw-innovate.com">Création : AW Innovate</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="110px" height="301px" viewBox="0 0 110 301" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M-156.196502,424.195369 C-174.069331,384.529993 -212.687629,373.202584 -226.382073,350.192458 C-238.675488,329.535139 -245.728277,300.721662 -237.352097,277.593101 C-217.545354,222.905827 -162.986377,262.150491 -129.940436,229.271308 C-100.462355,199.945197 -82.7306872,140.854588 -28.1258331,151.200924 C-8.51142219,154.920161 9.55903316,172.772143 29.600458,178.313877 C53.6208768,184.958654 79.8751786,179.480557 99.7577966,197.076223 C143.459678,235.751688 101.088245,272.915772 86.4444888,310.57481 C72.1430494,347.35 117.221257,396.847312 87.7625856,424.287289 C74.5445619,436.599306 36.5138497,435.899297 18.9374601,442.112756 C-18.5356637,455.358117 -32.6183025,475.762655 -61.0006161,482.870569 C-100.979359,492.882811 -130.91798,480.303871 -156.196502,424.195369" id="path-1"></path>
+        <filter x="-3.1%" y="-3.3%" width="106.1%" height="106.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.234402316 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="DEVIS-EN-LIGNE---SANS-FAQ" transform="translate(0.000000, -146.000000)">
+            <g id="DEVIS-EN-LIGNE">
+                <g id="Group-7">
+                    <g>
+                        <g id="Fill-1" transform="translate(-61.000000, 318.000000) rotate(-100.000000) translate(61.000000, -318.000000) ">
+                            <use fill="#FABE0C" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

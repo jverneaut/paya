@@ -1,12 +1,12 @@
-// $elements: (p, h1, h2, h3, h4, h5, h6, ul);
-// @each $top_element in $elements {
-//   @each $bottom_element in $elements {
-//     #{$top_element} + #{$bottom_element},
-//     #{$top_element} + a {
-//       margin-top: 20px;
-//     }
-//   }
-// }
+$elements: (p, h1, h2, h3, h4, h5, h6, ul);
+@each $top_element in $elements {
+  @each $bottom_element in $elements {
+    #{$top_element} + #{$bottom_element},
+    #{$top_element} + a {
+      margin-top: 15px;
+    }
+  }
+}
 
 * {
   -webkit-font-smoothing: antialiased;
@@ -14,9 +14,11 @@
 }
 
 $font-alt: 'DM Serif Text', serif;
+$font-base: 'Mulish', sans-serif;
 
 body {
-  font-family: 'Mulish', sans-serif;
+  font-family: $font-base;
+  line-height: 1.266;
 }
 
 h1,
@@ -29,4 +31,34 @@ h4 {
 h1 {
   font-size: 60px;
   line-height: 62px;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 52px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.section-title {
+  font-size: 12px !important;
+  font-weight: bold !important;
+  text-transform: uppercase !important;
+  font-family: $font-base !important;
+  padding-bottom: 8px;
+  position: relative;
+  color: $dark !important;
+
+  &::after {
+    position: absolute;
+    content: '';
+    display: block;
+    bottom: 0;
+    width: 16px;
+    height: 1px;
+    background: $dark;
+  }
 }

@@ -1,0 +1,76 @@
+.contact-banner {
+  background: #faf4ea;
+  padding: 100px 0;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-banner::before,
+.contact-banner::after {
+  position: absolute;
+  content: '';
+  display: block;
+  pointer-events: none;
+  width: 100%;
+  z-index: -1;
+}
+
+.contact-banner::before {
+  height: 260px;
+  bottom: 0;
+  left: 0;
+  background-size: contain;
+  background-image: url('../assets/img/contact-banner-shape-1.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.contact-banner::after {
+  height: 120px;
+  top: 0;
+  right: 0;
+  background-size: contain;
+  background-image: url('../assets/img/contact-banner-shape-2.svg');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.contact-banner p {
+  font-size: 19px;
+  color: #7b7c82;
+}
+
+.contact-banner__links {
+  background: #ffffff;
+  box-shadow: 0 24px 38px 3px rgba(193, 187, 177, 0.14),
+    0 9px 46px 8px rgba(193, 187, 177, 0.12),
+    0 11px 15px -7px rgba(193, 187, 177, 0.2);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 40px;
+  justify-content: center;
+}
+
+.contact-banner__links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+  & + a {
+    margin-top: 20px;
+  }
+}
+
+.contact-banner__links a img {
+  width: 35px;
+  height: auto;
+  margin-right: 30px;
+}
+
+.contact-banner__links a span:not(.btn) {
+  font-size: 28px;
+  font-family: $font-alt;
+  color: $dark;
+}

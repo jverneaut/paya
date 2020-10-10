@@ -1,6 +1,7 @@
 {
     "require": {
         "timber/timber": "^1.14",
-        "vlucas/phpdotenv": "^4.1"
+        "vlucas/phpdotenv": "^4.1",
+        "ozdemirburak/iris": "^2.1"
     }
 }

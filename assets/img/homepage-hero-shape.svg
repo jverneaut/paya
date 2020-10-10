@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="992px" height="632px" viewBox="0 0 992 632" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M475.067846,402.466037 C469.659472,412.061089 464.71209,422.887048 460.281272,435.107749 C432.081469,512.891302 455.825858,609.793772 497.213688,679.266304 C543.318317,756.651546 673.333253,794.746701 733.50511,928.145138 C818.609468,1116.84338 919.402824,1159.14755 1053.99793,1125.47543 C1149.55172,1101.57083 1196.96327,1032.94843 1323.12278,988.403018 C1382.29663,967.506565 1510.33336,969.86076 1554.83404,928.454275 C1555.8944,927.467619 1556.92609,926.472484 1557.92963,925.469011 C1554.34117,953.16882 1543.08671,977.799081 1518.67928,997.519951 C1471.39863,1035.72136 1343.83801,1024.44151 1283.35065,1041.1593 C1154.39112,1076.79576 1102.30821,1141.94374 1005.31968,1159.12461 C868.703597,1183.32583 771.106758,1134.09372 699.372634,939.918557 C648.652757,802.647696 521.611915,755.575955 481.017716,675.163123 C444.576863,602.972754 427.649889,504.650009 461.206906,429.023051 C465.174394,420.082104 469.378578,411.949392 473.800705,404.553625 Z M1542.69716,612.031392 L1541.13172,615.279097 C1539.60218,591.283549 1541.84991,567.981918 1550.39645,546.02838 C1581.51113,466.096278 1649.80838,386.827203 1658.97524,306.524937 C1701.4173,415.463802 1591.90226,511.097653 1542.69716,612.031392 Z" id="path-1"></path>
+        <filter x="-0.9%" y="-1.2%" width="101.7%" height="102.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="10" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01-ACCUEIL" transform="translate(-708.000000, -104.000000)">
+            <g id="HERO" transform="translate(265.000000, -434.000000)">
+                <g id="Group-3">
+                    <text id="Toujours-plus-proche" font-family="DMSerifText-Regular, DM Serif Text" font-size="60" font-weight="normal" line-spacing="62" fill="#1D1B1B">
+                        <tspan x="0" y="762">Toujours plus </tspan>
+                        <tspan x="0" y="824">proche de vous</tspan>
+                    </text>
+                    <path d="M449.03291,532.999447 C453.505798,584.921791 472.115708,637.13749 497.213688,679.266304 C543.318317,756.651546 673.333253,794.746701 733.50511,928.145138 C818.609468,1116.84338 919.402824,1159.14755 1053.99793,1125.47543 C1149.55172,1101.57083 1196.96327,1032.94843 1323.12278,988.403018 C1350.63512,978.687402 1393.03356,973.99788 1435.00104,967.59939 L1435,1170 L443,1170 L443,533 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                    <g id="Combined-Shape">
+                        <use fill="#003697" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

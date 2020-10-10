@@ -12,5 +12,5 @@ if (file_exists(__DIR__ . '/.env')) {
 
 require_once(__DIR__ . '/includes/setup.php');
 require_once(__DIR__ . '/includes/editor-styles.php');
-require_once(__DIR__ . '/includes/register-blocks.php');
+require_once(__DIR__ . '/includes/blocks.php');
 require_once(__DIR__ . '/includes/options-page.php');
