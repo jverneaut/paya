@@ -1,0 +1,35 @@
+<section class="news">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+      <div class="section-title">Actualités</div>
+      <a class="btn btn-outline-secondary mt-0" href="#">Toutes nos actualités</a>
+    </div>
+
+    <div class="row d-flex align-items-stretch news__row">
+      {% for new in news %}
+        <div class="col-4">
+          <div class="news__item">
+            <a href="{{ new.link }}" class="news__thumbnail">
+              {% if new.thumbnail %}
+                <img src="{{ Image(new.thumbnail).src }}" alt="{{ Image(new.thumbnail).alt }}">
+              {% endif %}
+            </a>
+            <div class="news__content">
+              <div class="news__date">
+                <img src="{{ theme.link }}/assets/img/calendar.svg" alt="Calendrier">
+                <span>
+                  {{ new.date }}
+                </span>
+              </div>
+              <p class="text-big">{{ new.title }}</p>
+              <a href="{{ new.link }}" class="news__button">
+                <div class="news__button-btn"><img src="{{ theme.link }}/assets/img/arrow-right.svg" alt=""></div>
+                <span>Lire l'article</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

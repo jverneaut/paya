@@ -49,6 +49,15 @@ class PayaBlock
     $context['fields'] = !empty($fields) ? $fields : $block['example']['attributes']['data'];
     $context['is_preview'] = $is_preview;
 
+    if ($block['name'] == 'acf/news') {
+      $context['news'] = new PostQuery([
+        'post_type' => 'post',
+        'posts_per_page' => 3,
+        'orderby' => 'date',
+        'order'   => 'DESC',
+      ]);
+    }
+
     Timber::render(sprintf('blocks/%s.twig', $this->slug), $context);
   }
 }
@@ -127,6 +136,10 @@ function register_blocks()
     [
       'title' => 'Fond',
       'slug' => 'background',
+    ],
+    [
+      'title' => 'Actualités',
+      'slug' => 'news',
     ],
   ];
 

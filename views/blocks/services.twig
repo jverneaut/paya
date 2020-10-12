@@ -9,9 +9,16 @@
           <div class="services__img">
             <img src="{{ Image(service.image).src }}" alt="{{ Image(fields.image).alt }}">
           </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="row">
+      {% for service in fields.services %}
+        <div class="col-4">
           {{ service.content }}
         </div>
       {% endfor %}
+
     </div>
   </div>
 </section>
