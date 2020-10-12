@@ -14,3 +14,5 @@ require_once(__DIR__ . '/includes/setup.php');
 require_once(__DIR__ . '/includes/editor-styles.php');
 require_once(__DIR__ . '/includes/blocks.php');
 require_once(__DIR__ . '/includes/options-page.php');
+require_once(__DIR__ . '/includes/services-default-content.php');
+require_once(__DIR__ . '/includes/contact-banner-default-content.php');

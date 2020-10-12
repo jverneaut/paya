@@ -5,7 +5,7 @@
         {
             "key": "field_5f81ca07747b4",
             "label": "Contenu",
-            "name": "content",
+            "name": "contact_banner_content",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -39,5 +39,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1602341393
+    "modified": 1602516197
 }

@@ -54,7 +54,10 @@ class Theme extends Site
     $twig->addExtension(new Twig\Extension\StringLoaderExtension());
     $twig->addFilter(new Twig\TwigFilter('darken', function ($color) {
       $hex = new Hex($color);
-      return $hex->darken(3);
+      $hex = $hex->darken(5);
+      $hex = $hex->desaturate(6);
+
+      return $hex;
     }));
 
     return $twig;

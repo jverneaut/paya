@@ -21,6 +21,8 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+  pointer-events: none;
+  user-select: none;
 }
 
 .hero__background-shape {
@@ -36,10 +38,28 @@
   padding: 180px 0;
 }
 
-.hero__content * {
-  color: white;
+.hero__content h1 {
+  line-height: 58px;
 }
 
-.hero__content p {
+.hero__content p,
+.hero__content p.section-title,
+.hero__content h1 {
+  color: white !important;
+}
+
+.hero__content p:not(.section-title) {
   opacity: 0.5;
+}
+
+.hero__content .section-title + h1 {
+  margin-top: 8px;
+}
+
+.hero__content h1 + p {
+  margin-top: 20px;
+}
+
+.hero__content .section-title::after {
+  background: white;
 }
