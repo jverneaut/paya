@@ -63,7 +63,21 @@ h3 {
   }
 }
 
+.section-title[style*='text-align:center']::after,
+.section-title[style*='text-align: center']::after,
 .text-center .section-title::after {
   left: 50%;
   transform: translateX(-50%);
+}
+
+p.text-grey {
+  color: #7b7c82;
+}
+
+p.text-bigger {
+  font-size: 23px;
+}
+
+p.text-big {
+  font-size: 19px;
 }

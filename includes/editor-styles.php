@@ -4,7 +4,7 @@
 function add_mce_format_button($buttons)
 {
   array_unshift($buttons, 'styleselect');
-  array_unshift($buttons, 'fontsizeselect');
+  // array_unshift($buttons, 'fontsizeselect');
 
   return $buttons;
 }
@@ -61,6 +61,24 @@ function add_mce_styles($init_array)
           'title' => 'Texte majuscule',
           'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
           'classes' => 'text-uppercase',
+          'wrapper' => true,
+        ],
+        [
+          'title' => 'Taille de texte moyenne',
+          'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
+          'classes' => 'text-big',
+          'wrapper' => true,
+        ],
+        [
+          'title' => 'Grande taille de texte',
+          'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
+          'classes' => 'text-bigger',
+          'wrapper' => true,
+        ],
+        [
+          'title' => 'Texte gris',
+          'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
+          'classes' => 'text-grey',
           'wrapper' => true,
         ],
       ],

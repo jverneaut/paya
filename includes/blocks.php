@@ -110,6 +110,24 @@ function register_blocks()
         ],
       ],
     ],
+    [
+      'title' => 'Image + texte',
+      'slug' => 'image-text',
+      'example' => ['image' => placeholder(), 'content' => lorem(32)],
+    ],
+    [
+      'title' => 'Titre',
+      'slug' => 'title',
+      'example' => ['title' => lorem(12)],
+    ],
+    [
+      'title' => 'Slider contrats',
+      'slug' => 'contracts-slider',
+    ],
+    [
+      'title' => 'Fond',
+      'slug' => 'background',
+    ],
   ];
 
   foreach ($blocks as $block_config) {

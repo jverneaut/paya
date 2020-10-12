@@ -1,0 +1,46 @@
+.masked-image {
+  position: relative;
+  margin-top: 60px;
+
+  @each $breakpoint-name, $size in $container-max-widths {
+    @include media-breakpoint-up($breakpoint-name) {
+      margin-right: -$size / 12;
+    }
+  }
+}
+
+.masked-image svg {
+  width: 100%;
+  height: auto;
+}
+
+.masked-image img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+
+  clip-path: url(#clipPath);
+}
+
+// @keyframes anim {
+//   from {
+//     transform: rotate(0deg) scale(1.01);
+//   }
+//   to {
+//     transform: rotate(-4deg) scale(0.98);
+//   }
+// }
+
+// .masked-image #clipPath {
+//   transform-origin: center;
+//   animation: 6s anim infinite alternate;
+// }
+
+// .masked-image #shape {
+//   transform-origin: center;
+//   animation: 9s anim infinite alternate;
+// }

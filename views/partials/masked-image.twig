@@ -1,0 +1,23 @@
+<div class="masked-image">
+  <svg width="658px" height="554px" viewbox="0 0 658 554" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+      <path d="M656.2985,265.200051 C656.2985,342.404151 635.442057,429.671655 569.725241,477.992967 C492.151098,535.029401 406.958207,497.409492 319.963606,507.054897 C241.512191,515.754304 171.20463,559.782484 125.058219,508.239751 C95.4919402,475.208402 110.110001,429.030513 96.2591604,400.920867 C71.8087314,351.298415 23.9014866,324.181909 17.5278987,264.609195 C6.5918658,162.369156 70.1453728,156.111743 147.307606,123.916392 C211.804417,96.9978851 272.358218,24.024061 338.914575,10.7078073 C534.558883,-28.4269555 656.2985,136.85236 656.2985,265.200051" id="path-1"></path>
+      <filter x="-1.8%" y="-2.2%" width="103.6%" height="104.4%" filterunits="objectBoundingBox" id="filter-2">
+        <feGaussianBlur stddeviation="11" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+        <feOffset dx="0" dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+        <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+        <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+      </filter>
+      <clipPath id="clipPath">
+        <path d="M641.986796,259.860665 C641.986796,337.064765 621.130354,424.332269 555.413538,472.653581 C477.839395,529.690015 392.646504,492.070106 305.651903,501.715511 C227.200488,510.414918 156.892927,554.443098 110.746516,502.900365 C81.1802368,469.869016 95.7982981,423.691127 81.9474571,395.581481 C57.4970281,345.959029 9.58978329,318.842523 3.21619539,259.269809 C-7.71983752,157.02977 55.8336695,150.772357 132.995903,118.577006 C197.492713,91.6584991 258.046515,18.684675 324.602872,5.36842135 C520.24718,-33.7663415 641.986796,131.512974 641.986796,259.860665" id="path-3"></path>
+      </clipPath>
+    </defs>
+    <g transform="translate(336.298500, 268.856612) rotate(-341.000000) translate(-336.298500, -268.856612) ">
+      <g id="shape">
+        <use fill="#8996AC" fill-rule="evenodd" xlink:href="#path-1"></use>
+        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+      </g>
+    </g>
+    <image xlink:href="{{ Image(image).src }}" style="clip-path: url(#clipPath)" width="100%" height="100%" preserveaspectratio="xMinYMin slice"/>
+  </svg>
+</div>
