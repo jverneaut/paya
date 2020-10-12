@@ -33,6 +33,7 @@
     "postcss-object-fit-images": "^1.1.2",
     "sass-loader": "^8.0.2",
     "style-loader": "^1.2.1",
+    "swiper": "^6.3.3",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   }

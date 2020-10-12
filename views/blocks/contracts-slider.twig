@@ -2,4 +2,32 @@
   <div class="container">
     {{ fields.content }}
   </div>
+  <div class="container">
+    <div class="swiper-container">
+
+      <div class="swiper-wrapper">
+        {% for contract in fields.contracts %}
+          <div class="swiper-slide">
+            <div class="contract-item">
+              <div class="contract-item__thumbnail">
+                <img src="{{ Image(contract.image).src }}" alt="{{ Image(contract.image).alt }}">
+              </div>
+              <div class="contract-item__content">
+                <h3>{{ contract.page.post_title }}</h3>
+                <p class="text-big text-grey">{{ contract.description }}</p>
+                <div class="d-flex align-items-center justify-content-between pt-3 mt-auto">
+                  <a href="{{ contract.page.link }}" class="btn btn-primary">Étude personnalisée</a>
+                  <a href="{{ contract.page.link }}" class="btn btn-outline-secondary">En savoir plus</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </div>
+  </div>
 </section>
