@@ -1,0 +1,17 @@
+<section class="tabs">
+  <div class="container">
+    {{ fields.title }}
+    <div class="tabs__container">
+      <div class="tabs__tabs">
+        {% for tab in fields.tabs %}
+          <div class="tabs__tab{{ loop.index0 == 0 ? ' tabs__tab--active' : '' }}">{{ tab.title }}</div>
+        {% endfor %}
+      </div>
+      <div class="tabs__contents">
+        {% for tab in fields.tabs %}
+          <div class="tabs__content{{ loop.index0 == 0 ? ' tabs__content--active' : '' }}">{{ tab.content }}</div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</section>

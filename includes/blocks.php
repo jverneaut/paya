@@ -141,6 +141,22 @@ function register_blocks()
       'title' => 'Actualités',
       'slug' => 'news',
     ],
+    [
+      'title' => 'Avantages',
+      'slug' => 'advantages',
+    ],
+    [
+      'title' => 'Image',
+      'slug' => 'image',
+    ],
+    [
+      'title' => 'Onglets',
+      'slug' => 'tabs',
+    ],
+    [
+      'title' => 'Foire aux questions (FAQ)',
+      'slug' => 'faq',
+    ],
   ];
 
   foreach ($blocks as $block_config) {

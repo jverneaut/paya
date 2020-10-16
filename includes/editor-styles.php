@@ -81,6 +81,12 @@ function add_mce_styles($init_array)
           'classes' => 'text-grey',
           'wrapper' => true,
         ],
+        [
+          'title' => 'Texte fin',
+          'selector' => 'p, h1, h2, h3, h4, h5, h5, span',
+          'classes' => 'text-thin',
+          'wrapper' => true,
+        ],
       ],
     ],
     [

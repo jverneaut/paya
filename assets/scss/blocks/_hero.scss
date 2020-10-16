@@ -35,21 +35,23 @@
 }
 
 .hero__content {
-  padding: 180px 0;
+  display: flex;
+  align-items: center;
+  padding: 92px 0;
+  min-height: 500px;
 }
 
 .hero__content h1 {
   line-height: 58px;
 }
 
-.hero__content p,
 .hero__content p.section-title,
 .hero__content h1 {
   color: white !important;
 }
 
 .hero__content p:not(.section-title) {
-  opacity: 0.5;
+  color: rgba(white, 0.5);
 }
 
 .hero__content .section-title + h1 {
